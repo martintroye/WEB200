@@ -60,7 +60,7 @@ a:visited{
     color:red;
 }
 
-.highlight{
+p.intro::first-line{
     background-color: lightgreen;
     font-weight: 700;
 }
