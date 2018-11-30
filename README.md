@@ -1,2 +1,2 @@
-# WEB200-333N
-Fundamentals of Web Developmnt (2193-DD)
+# WEB200
+Fundamentals of Web Developmnt
