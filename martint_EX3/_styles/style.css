@@ -91,3 +91,7 @@ p.intro::first-line{
     font-size: 1.25em;
     text-decoration: underline;
 }
+
+.favorite__site {
+    font-family: 'Oswald', 'Verdana', 'Arial', 'sans-serif';
+}
