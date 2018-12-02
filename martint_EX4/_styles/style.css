@@ -1,0 +1,113 @@
+html{
+    font-size: 16px;
+    background-color: rgba(247, 112, 34, 0.2);
+}
+
+address, p{
+    font-family: 'Quattrocento', 'Georgia', 'Times New Roman';
+}
+
+p{
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+address{
+    font-size: .8em;
+    white-space: pre;
+    margin: 0;
+    padding-bottom: .5em;
+}
+
+address:hover{
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
+h1, h2{
+    font-family: 'Oswald', 'Verdana', 'Arial', 'sans-serif';
+    margin: 0;
+    background-color: rgba(185, 63, 8)
+}
+
+h1{
+    font-size: 3.052em;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: .5em; 
+}
+
+h2{
+    font-size: 1.563em;
+    font-weight: 500;
+    padding-bottom: .3em;
+}
+
+h3{
+    font-family: 'Oswald', 'Verdana', 'Arial', 'sans-serif';
+    font-weight: 500;
+}
+
+ol{
+    /* border: 1px solid red;*/
+    border-radius: 15px; 
+    padding: 10px;
+    list-style-position: inside;
+    background-color: rgb(204, 83, 23);
+    color: #ffffff;
+
+}
+
+ul{
+    border: 1px dashed rgb(185, 63, 8);
+    border-radius: 15px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+li{
+    font-family: 'Oswald', 'Verdana', 'Arial', 'sans-serif';
+    font-weight: 300;
+}
+
+a {
+    font-family: 'Oswald', 'Verdana', 'Arial', 'sans-serif';
+    text-decoration:none;
+}
+
+figcaption {
+    font-family: 'Oswald', 'Verdana', 'Arial', 'sans-serif';
+    font-weight: 400;
+    font-size:.8em;
+}
+
+a.visited:link{
+    color:#008B45;
+}
+    
+a.visited:hover{
+    color:#EE9A00;
+}
+
+a.visited:visited{
+    color:red;
+}
+
+p.intro::first-line{
+    background-color: lightgreen;
+    font-weight: 700;
+}
+
+.sentence{
+    font-size: 1.25em;
+    text-decoration: underline;
+    background-color: rgba(247, 112, 34, 1);
+}
+
+.favorite__site {
+    font-family: 'Oswald', 'Verdana', 'Arial', 'sans-serif';
+}
+
+.images{
+    display: inline;
+}
