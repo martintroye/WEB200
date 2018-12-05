@@ -108,6 +108,6 @@ p.intro::first-line{
     font-family: 'Oswald', 'Verdana', 'Arial', 'sans-serif';
 }
 
-.images{
-    display: inline;
+figcaption{
+    margin-bottom: 10px;
 }
