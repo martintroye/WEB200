@@ -1,0 +1,82 @@
+/**
+Fonts and weights: fonts.googleapis.com/css?family=Kanit:400,500,700,800,900|Open+Sans:400,600|Roboto:400,500,700
+
+Type scale:
+35.527em, 28.422em, 22.737em, 18.19em, 14.552em, 11.642em, 9.313em, 7.451em, 5.96em, 4.768em, 3.815em, 3.052em, 2.441em
+1.953em, 1.563em, 1.25em, 1em, 0.8em, 0.64em, 0.512em, 0.41em, 0.328em, 0.262em
+
+color palette:
+#9064D9, #6744A0, #482E74, #2B1A47, #10091B
+
+border; #DFDDDD
+
+**/
+
+html {
+    font-size: 16px;
+}
+
+.banner {
+    background-color: #6744A0;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    font-family: "Kanit", "Arial", "Tahoma", "Veranda";
+}
+
+.content {
+    margin-top: 25px;
+    border: 1px solid #DFDDDD; 
+}
+
+.content__frame {
+    background-color: #6744A0;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin-right: 25px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+
+}
+
+.content__frame__photo {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 25px;
+    border-radius: 10px;
+    background: lightgray;
+}
+
+.banner__photo {
+    height: 300px;
+    width: 300px;
+    background: lightgray url("../_images/profile.jpg");
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.banner__title {
+    font-weight: 700;
+    font-size: 5.96rem;
+    color: #FFFFFF;
+    display: inline-block;
+    position: fixed;
+    top: 0px;
+    letter-spacing: .7rem;
+
+}
+
+.banner__words {
+    font-size: 2.441rem;
+    color: #D1BAF5;
+    display: inline-block;
+}
+
+.banner__words--primary {
+    font-size: 3.815rem;
+}
