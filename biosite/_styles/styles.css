@@ -24,6 +24,40 @@ html {
     font-family: "Kanit", "Arial", "Tahoma", "Veranda";
 }
 
+.banner__photo {
+    height: 300px;
+    width: 300px;
+    background: lightgray url("../_images/profile.jpg");
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.banner__title {
+    font-weight: 700;
+    font-size: 5.96rem;
+    color: #FFFFFF;
+    display: inline-block;
+    letter-spacing: .7rem;
+}
+
+.banner__highlights {
+    display: inline-block;
+}
+
+.banner__highlights__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.banner__highlights__list__item {
+    font-size: 2.441rem;
+    color: #D1BAF5;
+    line-height: 1em;
+    display: inline;
+}
+
 .content {
     margin-top: 25px;
     border: 1px solid #DFDDDD; 
@@ -51,32 +85,3 @@ html {
     background: lightgray;
 }
 
-.banner__photo {
-    height: 300px;
-    width: 300px;
-    background: lightgray url("../_images/profile.jpg");
-    border-radius: 20px;
-    display: inline-block;
-    margin-right: 25px;
-}
-
-.banner__title {
-    font-weight: 700;
-    font-size: 5.96rem;
-    color: #FFFFFF;
-    display: inline-block;
-    position: fixed;
-    top: 0px;
-    letter-spacing: .7rem;
-
-}
-
-.banner__words {
-    font-size: 2.441rem;
-    color: #D1BAF5;
-    display: inline-block;
-}
-
-.banner__words--primary {
-    font-size: 3.815rem;
-}
