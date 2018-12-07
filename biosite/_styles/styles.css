@@ -6,9 +6,11 @@ Type scale:
 1.953em, 1.563em, 1.25em, 1em, 0.8em, 0.64em, 0.512em, 0.41em, 0.328em, 0.262em
 
 color palette:
-#9064D9, #6744A0, #482E74, #2B1A47, #10091B
+    Purples:
+    #9064D9, #6744A0, #482E74, #2B1A47, #10091B
 
-border; #DFDDDD
+    Borders:
+    #DFDDDD
 
 **/
 
@@ -16,33 +18,44 @@ html {
     font-size: 16px;
 }
 
+.container {
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
 .banner {
     background-color: #6744A0;
-    padding-top: 25px;
-    padding-left: 25px;
-    padding-bottom: 25px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
     font-family: "Kanit", "Arial", "Tahoma", "Veranda";
+    height: auto;
+    overflow: auto;
 }
 
 .banner__photo {
-    height: 300px;
-    width: 300px;
+    height: 150px;
+    width: 150px;
     background: lightgray url("../_images/profile.jpg");
     border-radius: 20px;
-    display: inline-block;
     margin-right: 25px;
+    float: left;
 }
 
 .banner__title {
     font-weight: 700;
     font-size: 5.96rem;
     color: #FFFFFF;
-    display: inline-block;
-    letter-spacing: .7rem;
+    letter-spacing: .4rem;
+    float: left;
 }
 
 .banner__highlights {
     display: inline-block;
+    color: #10091b;
+    font-size: 2.441rem !important;
 }
 
 .banner__highlights__list {
@@ -59,29 +72,90 @@ html {
 }
 
 .content {
+    width: 1170px;
+    height: auto;
+    overflow: auto;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 25px;
-    border: 1px solid #DFDDDD; 
+    border: 1px solid #DFDDDD;
 }
 
 .content__frame {
+    padding: 5px;
     background-color: #6744A0;
-    height: 200px;
-    width: 200px;
-    display: inline-block;
-    margin-right: 25px;
-    padding-top: 25px;
-    padding-left: 25px;
-    padding-bottom: 25px;
+    height: 300px;
+    width: 150px;
+}
 
+.content__frame--left {
+    float: left;
+}
+
+.content__frame--right {
+    float: right;
 }
 
 .content__frame__photo {
-    height: 150px;
-    width: 150px;
-    border-radius: 10px;
-    display: inline-block;
-    margin-right: 25px;
+    height: 295px;
+    width: auto;
     border-radius: 10px;
     background: lightgray;
 }
 
+.content__copy {
+    margin-left: 25px;
+    float: left;
+}
+
+.top {
+    margin-top: 25px;
+    float: right;
+}
+
+.education__photo {
+    background: lightgray url("../_images/education.JPG");
+}
+
+.experience__photo {
+    background: lightgray url("../_images/experience.jpg");
+}
+
+.certifications__photo {
+    background: lightgray url("../_images/certification.JPG");
+}
+
+.hobbies__photo {
+    background: lightgray url("../_images/traveler.JPG");
+}
+
+.other__photo {
+    background: lightgray url("../_images/info.png");
+}
+
+a{
+    text-decoration: none;
+}
+
+p, .info, .intro {
+    max-width: 800px;
+    font-family: "Roboto", "Arial", "Tahoma", "Veranda";
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.intro {
+    font-family: "Kanit", "Arial", "Tahoma", "Veranda";
+    text-align: center;
+    max-width: 1100px;
+    font-size: 1.563rem;
+    letter-spacing: .3rem;
+    color: #2b1a47
+
+}
+
+h2 {
+    font-family: "Roboto", "Arial", "Tahoma", "Veranda";
+    font-weight: 700;
+    color: #2b1a47
+}
